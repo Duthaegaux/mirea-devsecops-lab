@@ -22,4 +22,4 @@ def get_user():
     return {"error": "User not found"}, 404
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
